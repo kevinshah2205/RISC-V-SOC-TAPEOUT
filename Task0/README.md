@@ -1,14 +1,14 @@
-# 🚀 VLSI Tool Setup Guide: Yosys, Iverilog & GTKWave
+# 🛠️ Task 0: System Check and Tool Installation
 
 <div align="center">
 
-![VLSI](https://img.shields.io/badge/VLSI-Tool%20Setup-blue?style=for-the-badge&logo=chip)
-![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-20.04+-orange?style=for-the-badge&logo=ubuntu)
+![Task](https://img.shields.io/badge/Task-0-brightgreen?style=for-the-badge)
+![Tools](https://img.shields.io/badge/Tools-3%20Installed-blue?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Linux-red?style=for-the-badge&logo=linux)
 
 </div>
 
-Welcome to the **VLSI Tool Setup Guide**! This README documents the complete installation process of essential open-source VLSI design tools: **Yosys**, **Iverilog**, and **GTKWave**. Follow this guide to set up your digital design environment with detailed troubleshooting steps.
+This task involves installing and verifying three essential open-source EDA tools: **Yosys**, **Iverilog**, and **GTKWave** on Ubuntu Linux. Each tool installation is documented with commands, error resolution, and verification steps.
 
 ---
 
@@ -16,8 +16,8 @@ Welcome to the **VLSI Tool Setup Guide**! This README documents the complete ins
 
 - [🎯 Overview](#-overview)
 - [⚙️ System Requirements](#️-system-requirements)  
-- [🧠 Yosys Installation](#-yosys-installation---rtl-synthesis-tool)
-- [📟 Iverilog Installation](#-iverilog-installation---verilog-simulator)
+- [🎛️ Yosys Installation](#-yosys-installation---rtl-synthesis-tool)
+- [🖥️ Iverilog Installation](#-iverilog-installation---verilog-simulator)
 - [📊 GTKWave Installation](#-gtkwave-installation---waveform-viewer)
 - [🔧 Troubleshooting](#-troubleshooting-guide)
 - [✅ Installing Verification](#-installation-verification)
@@ -51,7 +51,7 @@ Each tool serves a specific purpose in the digital design flow:
 
 ---
 
-## 🧠 **Yosys Installation - RTL Synthesis Tool**
+## 🎛️ **Yosys Installation - RTL Synthesis Tool**
 
 ### 📖 **About Yosys**
 Yosys is a framework for RTL synthesis that converts Verilog HDL designs into gate-level netlists with various optimization capabilities.
@@ -123,7 +123,7 @@ yosys
 
 ---
 
-## 📟 **Iverilog Installation - Verilog Simulator**
+## 🖥️ **Iverilog Installation - Verilog Simulator**
 
 ### 📖 **About Iverilog**
 Icarus Verilog is an IEEE-1364 compliant Verilog simulator that supports both behavioral and synthesizable Verilog designs.
@@ -188,8 +188,8 @@ gtkwave
 
 | **Issue** | **Tool** | **Solution** | **Status** |
 |-----------|----------|--------------|------------|
-| Git submodule error | 🧠 Yosys | `git submodule update --init` | ✅ Resolved |
-| Missing dependencies | 🧠 Yosys | Install build-essential packages | ✅ Resolved |
+| Git submodule error | 🎛️ Yosys | `git submodule update --init` | ✅ Resolved |
+| Missing dependencies | 🎛️ Yosys | Install build-essential packages | ✅ Resolved |
 | Permission denied | All | Use `sudo` for system installation | ✅ Resolved |
 | Package not found | All | Run `sudo apt-get update` first | ✅ Resolved |
 
@@ -225,8 +225,8 @@ gtkwave --version
 
 | **Tool** | **Version** | **Installation** | **Primary Purpose** |
 |----------|-------------|------------------|---------------------|
-| 🧠 **Yosys** | 0.57+153 | ✅ **Completed** | RTL Synthesis & Optimization |
-| 📟 **Iverilog** | Latest Stable | ✅ **Completed** | Verilog HDL Simulation |
+| 🎛️ **Yosys** | 0.57+153 | ✅ **Completed** | RTL Synthesis & Optimization |
+| 🖥️ **Iverilog** | Latest Stable | ✅ **Completed** | Verilog HDL Simulation |
 | 📊 **GTKWave** | v3.3.116 | ✅ **Completed** | Digital Waveform Analysis |
 
 ### ✅ **VLSI Toolchain Successfully Installed!**
