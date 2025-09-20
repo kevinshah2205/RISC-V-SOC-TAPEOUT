@@ -15,12 +15,12 @@ This task involves installing and verifying three essential open-source EDA tool
 ## 📋 **Table of Contents**
 
 - [🎯 Overview](https://github.com/kevinshah2205/RISC-V-SOC-TAPEOUT/blob/main/Task0/README.md#-overview)
-- [⚙️ System Requirements](#️-system-requirements)  
-- [🎛️ Yosys Installation](#-yosys-installation---rtl-synthesis-tool)
-- [🖥️ Iverilog Installation](#-iverilog-installation---verilog-simulator)
-- [📊 GTKWave Installation](#-gtkwave-installation---waveform-viewer)
-- [🔧 Troubleshooting](#-troubleshooting-guide)
-- [✅ Installing Verification](#-installation-verification)
+- [⚙️ System Requirements](https://github.com/kevinshah2205/RISC-V-SOC-TAPEOUT/blob/main/Task0/README.md#%EF%B8%8F-system-requirements)  
+- [🎛️ Yosys Installation](https://github.com/kevinshah2205/RISC-V-SOC-TAPEOUT/blob/main/Task0/README.md#%EF%B8%8F-yosys-installation---rtl-synthesis-tool)
+- [🖥️ Iverilog Installation](https://github.com/kevinshah2205/RISC-V-SOC-TAPEOUT/blob/main/Task0/README.md#%EF%B8%8F-iverilog-installation---verilog-simulator)
+- [📊 GTKWave Installation](https://github.com/kevinshah2205/RISC-V-SOC-TAPEOUT/blob/main/Task0/README.md#-gtkwave-installation---waveform-viewer)
+- [🔧 Troubleshooting](https://github.com/kevinshah2205/RISC-V-SOC-TAPEOUT/blob/main/Task0/README.md#-troubleshooting-guide)
+- [✅ Installing Verification](https://github.com/kevinshah2205/RISC-V-SOC-TAPEOUT/blob/main/Task0/README.md#-installation-verification)
 
 ---
 
