@@ -20,22 +20,13 @@ Welcome to the **VLSI Tool Setup Guide**! This README documents the complete ins
 - [📟 Iverilog Installation](#-iverilog-installation---verilog-simulator)
 - [📊 GTKWave Installation](#-gtkwave-installation---waveform-viewer)
 - [🔧 Troubleshooting](#-troubleshooting-guide)
-- [✅ Verification](#-installation-verification)
-- [🤝 Contributing](#-contributing)
+- [✅ Installing Verification](#-installation-verification)
 
 ---
 
 ## 🎯 **Overview**
 
 This repository contains step-by-step instructions for installing the essential VLSI design toolchain:
-
-<div align="center">
-
-```
-🧠 Yosys (RTL Synthesis) → 📟 Iverilog (Simulation) → 📊 GTKWave (Waveform Analysis)
-```
-
-</div>
 
 Each tool serves a specific purpose in the digital design flow:
 - **Yosys**: RTL synthesis and optimization
@@ -48,12 +39,13 @@ Each tool serves a specific purpose in the digital design flow:
 
 <div align="center">
 
-| **Specification** | **Requirement** |
-|-------------------|-----------------|
-| **OS** | Ubuntu 20.04+ (or compatible Linux) |
-| **RAM** | 4GB+ recommended |
-| **Storage** | 2GB+ free space |
-| **Internet** | Required for package downloads |
+| **Specification** | **Minimum Requirement** | **My System** |
+|-------------------|-------------------------|---------------|
+| **OS** | Ubuntu 20.04+ (or compatible Linux) | Ubuntu 24.04.3 LTS |
+| **RAM** | 4GB+ recommended | 16GB DDR5 RAM |
+| **Storage** | 2GB+ free space | 100GB NVMe SSD |
+| **CPU** | Dual-core processor | 12 cores, 16 threads |
+| **Internet** | Required for package downloads | ✅ Available |
 
 </div>
 
@@ -100,7 +92,7 @@ sudo make install
 make: *** [Makefile:811: check-git-abc] Error 1
 ```
 
-![Yosys Make Error](https://github.com/your-username/your-repo/blob/main/assets/yosys_make_error.png)
+![Yosys Make Error](<img width="1112" height="151" alt="Screenshot from 2025-09-20 14-19-31" src="https://github.com/user-attachments/assets/fd29e2f4-a9ec-43f0-9eba-1e15f79e2ad4" />)
 
 **Solution:**
 ```bash
@@ -221,17 +213,17 @@ iverilog -V
 gtkwave --version
 ```
 
-### 🎉 **Installation Summary**
+### 🎯 **Tool Installation Status**
 
 <div align="center">
 
-| **Tool** | **Version** | **Status** | **Function** |
-|----------|-------------|------------|--------------|
-| 🧠 **Yosys** | 0.57+153 | ✅ **Ready** | RTL Synthesis |
-| 📟 **Iverilog** | Latest | ✅ **Ready** | Verilog Simulation |
-| 📊 **GTKWave** | v3.3.116 | ✅ **Ready** | Waveform Analysis |
+| **Tool** | **Version** | **Installation** | **Primary Purpose** |
+|----------|-------------|------------------|---------------------|
+| 🧠 **Yosys** | 0.57+153 | ✅ **Completed** | RTL Synthesis & Optimization |
+| 📟 **Iverilog** | Latest Stable | ✅ **Completed** | Verilog HDL Simulation |
+| 📊 **GTKWave** | v3.3.116 | ✅ **Completed** | Digital Waveform Analysis |
 
-### 🚀 **Your VLSI Development Environment is Ready!**
+### 🚀 **VLSI Toolchain Successfully Configured!**
 
 </div>
 
@@ -241,64 +233,12 @@ gtkwave --version
 
 ```
 ├── README.md                 # This installation guide
-├── assets/                   # Screenshots and images
+├── files/                    # Screenshots and documentation
 │   ├── yosys_make_error.png
 │   ├── git_submodule_update.png
 │   ├── yosys_installed.png
 │   ├── iverilog_installed.png
 │   └── gtkwave_installed.png
-├── scripts/                  # Installation scripts
-│   └── install_tools.sh
-└── examples/                 # Sample designs
-    ├── basic_gates/
-    └── counters/
+└── scripts/                  # Installation scripts
+    └── install_tools.sh
 ```
-
----
-
-## 🤝 **Contributing**
-
-Found an issue or want to improve this guide? 
-
-1. **Fork** this repository
-2. **Create** a feature branch: `git checkout -b feature/improvement`
-3. **Commit** your changes: `git commit -am 'Add improvement'`
-4. **Push** to the branch: `git push origin feature/improvement`
-5. **Submit** a Pull Request
-
----
-
-## 📞 **Support**
-
-If you encounter issues:
-
-- 🐛 **Bug Reports**: Open an issue with detailed error logs
-- 💬 **Questions**: Start a discussion in the Issues tab
-- 📧 **Contact**: Reach out via GitHub profile
-
----
-
-## 📄 **License**
-
-This guide is open-source and available under the MIT License. Feel free to use and modify as needed.
-
----
-
-<div align="center">
-
-**⭐ Star this repo if it helped you!**
-
-[![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo?style=social)](https://github.com/your-username/your-repo/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/your-username/your-repo?style=social)](https://github.com/your-username/your-repo/network/members)
-
-**🔗 Quick Links**
-
-[![Yosys](https://img.shields.io/badge/Yosys-Documentation-blue)](http://www.clifford.at/yosys/)
-[![Iverilog](https://img.shields.io/badge/Iverilog-Documentation-green)](http://iverilog.icarus.com/)
-[![GTKWave](https://img.shields.io/badge/GTKWave-Documentation-orange)](http://gtkwave.sourceforge.net/)
-
----
-
-**Built with ❤️ for the VLSI Community**
-
-</div>
