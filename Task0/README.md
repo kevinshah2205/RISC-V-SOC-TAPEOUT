@@ -92,7 +92,8 @@ sudo make install
 make: *** [Makefile:811: check-git-abc] Error 1
 ```
 
-![Yosys Make Error](<img width="1112" height="151" alt="Screenshot from 2025-09-20 14-19-31" src="https://github.com/user-attachments/assets/fd29e2f4-a9ec-43f0-9eba-1e15f79e2ad4" />)
+<img width="1112" height="151" alt="Screenshot from 2025-09-20 14-19-31" src="https://github.com/user-attachments/assets/2edd3a18-f019-400d-b5b7-c996b7e8a8e6" />
+
 
 **Solution:**
 ```bash
@@ -100,7 +101,8 @@ make: *** [Makefile:811: check-git-abc] Error 1
 git submodule update --init
 ```
 
-![Git Submodule Fix](https://github.com/your-username/your-repo/blob/main/assets/git_submodule_update.png)
+<img width="1123" height="223" alt="Screenshot from 2025-09-20 14-20-50" src="https://github.com/user-attachments/assets/a5b4d18e-a0fd-427c-8e0d-14c6e62b5aab" />
+
 
 **Then continue with:**
 ```bash
@@ -114,7 +116,8 @@ sudo make install
 yosys
 ```
 
-![Yosys Installed](https://github.com/your-username/your-repo/blob/main/assets/yosys_installed.png)
+<img width="1123" height="281" alt="Screenshot from 2025-09-20 14-51-16" src="https://github.com/user-attachments/assets/91ef666a-4185-44aa-88dc-5aaa466759d5" />
+
 
 **Expected Output:** Yosys command prompt with version information.
 
@@ -141,7 +144,9 @@ sudo apt-get install iverilog
 iverilog
 ```
 
-![Iverilog Installed](https://github.com/your-username/your-repo/blob/main/assets/iverilog_installed.png)
+<img width="920" height="495" alt="image" src="https://github.com/user-attachments/assets/e7ce01f8-fdef-4600-bde5-ee833aa979b5" />
+
+
 
 **Expected Output:** Command usage information confirming successful installation.
 
@@ -168,7 +173,8 @@ sudo apt install gtkwave
 gtkwave
 ```
 
-![GTKWave Installed](https://github.com/your-username/your-repo/blob/main/assets/gtkwave_installed.png)
+<img width="1166" height="816" alt="Screenshot from 2025-09-20 14-55-12" src="https://github.com/user-attachments/assets/1f6e2f4e-d5ba-41c3-9738-43d6e8d34011" />
+
 
 **Expected Output:** GTKWave GUI opens successfully.
 
@@ -204,10 +210,10 @@ gtkwave
 
 ```bash
 # Test Yosys
-yosys -V
+yosys --version
 
 # Test Iverilog  
-iverilog -V
+iverilog -v
 
 # Test GTKWave
 gtkwave --version
@@ -223,7 +229,7 @@ gtkwave --version
 | 📟 **Iverilog** | Latest Stable | ✅ **Completed** | Verilog HDL Simulation |
 | 📊 **GTKWave** | v3.3.116 | ✅ **Completed** | Digital Waveform Analysis |
 
-### 🚀 **VLSI Toolchain Successfully Configured!**
+### ✅ **VLSI Toolchain Successfully Installed!**
 
 </div>
 
