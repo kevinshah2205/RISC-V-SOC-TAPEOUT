@@ -21,6 +21,7 @@ This task involves installing and verifying three essential open-source EDA tool
 - [📊 GTKWave Installation](https://github.com/kevinshah2205/RISC-V-SOC-TAPEOUT/blob/main/Task0/README.md#-gtkwave-installation---waveform-viewer)
 - [🔧 Troubleshooting](https://github.com/kevinshah2205/RISC-V-SOC-TAPEOUT/blob/main/Task0/README.md#-troubleshooting-guide)
 - [✅ Installing Verification](https://github.com/kevinshah2205/RISC-V-SOC-TAPEOUT/blob/main/Task0/README.md#-installation-verification)
+- [ Repository Structure](https://github.com/kevinshah2205/RISC-V-SOC-TAPEOUT/blob/main/Task0/README.md#-repository-structure)
 
 ---
 
