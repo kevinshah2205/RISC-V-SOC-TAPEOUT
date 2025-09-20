@@ -6,4 +6,4 @@ This repository serves as a log of my progress and learnings throughout the RISC
 
 | Task       | Topics Covered                                          | Status    |
 | ---------- | ------------------------------------------------------- | --------- |
-| **Task 0** | [**System Check and Tools Installation**](Task0) | **✅ Done** |
+| **Task 0** | [**System Check and Tools Installation**](Task0/README.md) | **✅ Done** |
