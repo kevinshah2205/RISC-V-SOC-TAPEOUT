@@ -219,17 +219,18 @@ iverilog -v
 gtkwave --version
 ```
 
-### 🎯 **Tool Installation Status**
-
 <div align="center">
+
+🎯 **Tool Installation Status**
+
 
 | **Tool** | **Version** | **Installation** | **Primary Purpose** |
 |----------|-------------|------------------|---------------------|
-| 🎛️ **Yosys** | 0.57+153 | ✅ **Completed** | RTL Synthesis & Optimization |
-| 🖥️ **Iverilog** | Latest Stable | ✅ **Completed** | Verilog HDL Simulation |
+| 🎛️ **Yosys** | v0.57+153 | ✅ **Completed** | RTL Synthesis & Optimization |
+| 🖥️ **Iverilog** | v12.0 | ✅ **Completed** | Verilog HDL Simulation |
 | 📊 **GTKWave** | v3.3.116 | ✅ **Completed** | Digital Waveform Analysis |
 
-### ✅ **VLSI Toolchain Successfully Installed!**
+✅ **VLSI Toolchain Successfully Installed!**
 
 </div>
 
