@@ -14,7 +14,7 @@ This task involves installing and verifying three essential open-source EDA tool
 
 ## 📋 **Table of Contents**
 
-- [🎯 Overview](#-overview)
+- [🎯 Overview]([#-overview](https://github.com/kevinshah2205/RISC-V-SOC-TAPEOUT/blob/main/Task0/README.md#-overview))
 - [⚙️ System Requirements](#️-system-requirements)  
 - [🎛️ Yosys Installation](#-yosys-installation---rtl-synthesis-tool)
 - [🖥️ Iverilog Installation](#-iverilog-installation---verilog-simulator)
